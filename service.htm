@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>party time</title>
+    <link rel="stylesheet" href="service.css">
+	<script>
+	function openPopup() {
+    document.getElementById("customPopup").style.display = "block";
+}
+function closePopup() {
+    document.getElementById("customPopup").style.display = "none";
+}
+
+function closeSuccessPopup() {
+    document.getElementById("successPopup").style.display = "none";
+}
+
+function submitForm(event) {
+    event.preventDefault();
+    alert("Enquiry Sent!");
+
+    document.getElementById("customPopup").style.display = "none";
+}
+	
+	
+	</script>
+   
+
+</head>
+<body>
+    
+	<div class="banner1">
+	   <img style="margin-right:80% ;" src="ty.png" alt="Company Logo" width="80" height="80">
+	   <p style="color: white;">party time</p>
+     
+      <a href="#"><img src="face.png" style="width:30px;" alt="Facebook"></a>
+        <a href="#"><img src="3670151.png" style="width:30px;" style="width:30px;"alt="Twitter"></a>
+        <a href="#"><img src="insta.png" style="width:30px;"alt="Instagram"></a>
+    
+	   
+	</div>
+	
+	
+	<div class="banner2">
+	         <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='index.html';">Home</button>
+			</div>
+			 <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='contact.html';">Contact</button>
+			</div>
+			 <div class="dropdown">
+            <button class="dropbtn">Services and products</button>
+            <div class="dropdown-content">
+             
+            </div>
+			</div>
+
+    </div>
+	<div class="banner3">
+        <img src="an.png" width="100%" height="600px" >
+            <div class="banner4">
+			   <p style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:xx-large; color:darkred;" class="p1"><br>We are one of the best in Dubai. 
+                 We serve our customers with new and high quality facilities.
+                  Go to the bottom of the page 
+                  to read more information.
+                  <br>
+                  Other services:
+                  fundraisers
+                  bespoke catering
+                  themes and props
+                  invitations and printworks
+                  sound and lighting.<br>.</p>
+            </div>
+    </div>
+
+	<div class="banner5">
+	           <div class="package">
+			     <p style="color: rgb(255, 255, 255);" class="p2">Our services<p>
+				
+				 <div class="row">
+  <div class="column">
+    <div class="card1">
+      <p class="p4">Themed events</p>
+      <p class="p3"><br><br><br><br>Themed events:<br>We at Eventologists always aim to provide the most amazing, 
+        remarkable, and outlandish designs and events possible,
+         thus we've compiled a compilation of our top 20 timeless event themes! 
+         Naturally, this has a wide range of topics that can add flair and intrigue to an event...
+</p>
+<br><br>
+<button><a href="#" style="color: blueviolet;">Read More</a></button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+        <p class="p4">marquee parties</p>
+      <p class="p3"><br><br><br><br><i>marquee parties:</i><br><br>
+        Regardless of the kind of celebration you're throwing, 
+        <br>if you've been assigned the duty of planning one, 
+        <br>you want to take steps to make it an unforgettable...
+</p>
+<br><br>
+<button><a href="#" style="color: blueviolet;">Read More</a></button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card3">
+        <p class="p4">Entertainment</p>
+      <p class="p3"><br><br>
+      <i>Entertainment:</i><br><br>
+      There must be entertainment at every gathering. 
+      Whether you're organizing an office party, birthdays celebration, 
+      anniversary celebration, baby shower, or dinner party,
+       it's imperative to include some entertainment or activities.
+      So what makes for the ideal party entertainment? 
+      We've compiled this list of the best 20 party ....
+
+       
+      
+      .<br>
+
+</p>
+<br><br>
+<button><a href="#" style="color: blueviolet;">Read More</a></button>
+    </div>
+  </div>
+  </div>
+  <div class="custom">
+  
+  
+  </div>
+  
+  <div class="popup" id="customPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p class="p3">Contact Us</p>
+			<br><br>
+            <form id="contactForm" onsubmit="submitForm(event)">
+                <label for="name" style="background-color: white;">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" style="background-color: white;">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="packageDetails" style="background-color: white;">Package Details:</label>
+                <textarea id="packageDetails" name="packageDetails" rows="4" required></textarea>
+
+                <button class="button button1" type="submit">Enquire</button>
+            </form>
+        </div>
+    </div>
+	
+
+  </div>
+  
+
+  </div>
+  
+
+	
+
+
+<footer>
+<div class="footer-content">
+    
+    <div class="footer-social">
+        <h3 style="color:rgb(152, 3, 152);">Follow Us</h3>
+        <ul>
+            <li><a href="#"><img src="face.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="3670151.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="insta.png" alt="Instagram"></a></li>
+        </ul>
+		<div class="footer-address">
+        <p style="color: rgb(173, 8, 178);" class="p6"style="color:white;">Uni Party <br>Block 4,<br>Dubai Knowledge Park,<br>Al Sufouh 2,Dubai<br>United Arab Emirates</p>
+    </div>
+    </div>
+	
+</div>
+
+<div class="footer-bottom">
+    <p>&copy; Party Time.</p>
+    <p>Designed by Mohammad Hossein Farhangi</p>
+</div>
+</footer>
+</body>
+</html>

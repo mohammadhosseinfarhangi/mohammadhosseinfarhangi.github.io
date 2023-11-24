@@ -1,0 +1,414 @@
+.banner1{
+	
+	background-color:#000000;
+	height:100px;
+	justify-content:center;
+	align-items:center;
+	padding:0px;
+	display: flex; 
+    text-align:center;
+    margin: 0px; /* Remove default margin to avoid unexpected displacement */
+    line-height: 1.5; /* Adjust line height as needed */
+}
+p{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:30px;
+	color:rgb(187, 0, 255);
+	
+	
+}
+.p1{
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:20px;
+	color:white;
+	margin: 0;
+	
+	
+}
+.p2{
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:50px;
+	color:rgb(0, 0, 0);
+	margin: 0;
+	text-align:center;
+	
+}
+.p3
+{
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:20px;
+	color:black;
+	margin: 0;
+	text-align:center;
+}
+.p4{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:40px;
+	color:#000000;
+	margin: 0;
+	text-align:center;
+	
+	
+}
+.p6{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:15px;
+	color:#000000;
+	margin: 0;
+	text-align:left;
+	padding-bottom:10px;
+	
+	
+}
+.banner3 img{
+	
+	
+	display:block;
+	padding:0px;
+	
+	
+}
+
+body {
+ 
+   margin: 0;
+    padding: 0;
+}
+.banner2{
+	background-color:#000000;
+	display: flex;
+    justify-content: Center;
+	align-items: center;
+	text-align:Center;
+	height:40px;
+	z-index: 2;
+	
+}
+ .banner3 {
+  position: relative;
+ 
+}
+
+.banner4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  opacity:0.9;
+  padding: 20px;
+  color:#000;
+  text-align: center;
+  height:300px;
+}
+.banner6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffff;
+  opacity:0.9;
+  padding: 20px;
+  color:rgb(105, 0, 121), 27, 121;
+  text-align: center;
+ 
+}
+.banner5{
+	background-color:#000000;
+	display: flex;
+	padding-top:20px;
+    justify-content: Center;
+	height:650px;
+	z-index: 2;
+	
+}
+ .img {
+        display: block;
+		padding:0px;
+    }
+.content {
+  text-align: center;
+}
+
+        
+.dropdown {
+        position: relative;
+        display: inline-block;
+		 flex: 1; 
+		 margin: 0;
+		  z-index: 1;
+      
+    }
+    
+    .dropbtn {
+        background-color: transparent;
+        color: #fff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+		padding:11px;
+        font-size: 16px;
+		
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: rgb(86, 5, 97);
+		
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+		
+    }
+    
+    .dropdown:hover .dropbtn {
+		
+        background-color: rgb(86, 5, 97);
+    }
+	* {
+  box-sizing: border-box;
+}
+
+/* Use flexbox for the row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+/* Set the width for each column */
+.column {
+  flex: 1;
+  margin: 0 10px; /* Add margin for spacing between columns */
+  
+}
+
+
+/* Style the counter cards */
+.card1 {
+
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(224, 1, 135);
+  width:400px;
+  height:400px;
+}
+.card2 {
+ 
+  padding: 16px;
+  text-align: center;
+  background-color: #8a186a;
+  width:400px;
+  height:400px;
+}
+.card3 {
+
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(255, 9, 214);
+  width:400px;
+  height:400px;
+}
+
+.custom {
+    text-align: center; /* Center the button */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.button {
+    /* Add button styles if needed */
+}
+
+/* Center align the footer content */
+.footer-content {
+   
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+	background-color:#000000;
+	padding-left:20px;
+}
+
+/* Style the footer logo and event name */
+.footer-logo img {
+    max-width: 100px; /* Set a maximum width for the logo */
+    margin-right: 10px; /* Add spacing between logo and event name */
+}
+.footer-address{
+	
+	text-align:right;
+	
+	
+}
+/* Style the navigation links */
+.footer-links ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+}
+
+.footer-links li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+
+/* Style the social media icons */
+.footer-social ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+}
+
+.footer-social li {
+    display: inline-block; /* Display icons horizontally */
+    margin-right: 10px; /* Add spacing between icons */
+}
+
+.footer-social img {
+    max-width: 30px; /* Set a maximum width for the social media icons */
+}
+
+/* Style the footer bottom section */
+.footer-bottom {
+    background-color:#000000;
+    padding: 10px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center align text */
+}
+
+/* Style copyright text and attribution */
+.footer-bottom p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the Designed by text */
+.footer-bottom p:last-child {
+    font-size: 14px; /* Adjust font size for attribution */
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.578);
+  border: none;
+  color: rgb(199, 18, 223);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+   
+    z-index: 1;
+}
+
+.popup-content {
+    text-align: center;
+	width:600px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup label {
+    margin-bottom: 8px;
+}
+
+.popup textarea {
+    resize: vertical;
+}
+
+.success-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+form{
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	font-size:15px;
+	color:black;
+	max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto;
+	
+	
+}
+.form {
+    text-align: center; /* Center the form */
+}
+input,
+textarea {
+    width: 100%; /* Make input fields and textareas take up the full width of their container */
+    padding: 8px; /* Add some padding to the input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 16px; /* Add space between input fields and textareas */
+}
+@media only screen and (max-width: 768px) {
+ .p1{
+	 
+	 font-size:10px;
+	 
+ }
+ .card1, .card2, .card3 {
+        max-width: 100%; /* Set the maximum width to 100% for smaller screens */
+		
+    }
+	.banner5{
+		
+		height:2000px;
+		
+	}
+	.banner2 {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        height: auto; /* Adjust height based on content */
+    }
+
+    .dropbtn {
+        margin-bottom: 5px; /* Add spacing between vertically stacked buttons */
+    }
+	
+}
+
+

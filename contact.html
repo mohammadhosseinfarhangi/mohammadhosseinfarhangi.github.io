@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Time</title>
+    <link rel="stylesheet" href="contactstyle.css">
+	<script>
+	function openPopup() {
+    document.getElementById("customPopup").style.display = "block";
+}
+function closePopup() {
+    document.getElementById("customPopup").style.display = "none";
+}
+
+function closeSuccessPopup() {
+    document.getElementById("successPopup").style.display = "none";
+}
+
+function submitForm(event) {
+    event.preventDefault();
+    alert("Enquiry Sent!");
+
+    document.getElementById("customPopup").style.display = "none";
+}
+	
+	
+	</script>
+   
+
+</head>
+<body>
+    
+	<div class="banner1">
+	   <img src="ty.png" alt="Company Logo" width="70" height="70" style="margin-right: 85%;">
+	   <p>Party Time</p>
+       
+	</div>
+	<div class="banner2">
+	         <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='index.html';">Home</button>
+			</div>
+			 <div class="dropdown">
+            <button class="dropbtn">Contact</button>
+			</div>
+			 <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='service.htm';">Services and products</button>
+            <div class="dropdown-content">
+ 
+
+            </div>
+			</div>
+
+    </div>
+	<div class="banner5">
+	
+	 <img src="c:\Users\Regent\OneDrive - RTC Education Ltd\Desktop\website\kif.png" width="100%" height="600px" >
+	
+	<div class="banner6">
+	<div class="form">
+	<p class="p3">CONTACT US</p>
+	<br>
+	<br>
+	<form id="contactForm" onsubmit="submitForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="packageDetails">Package Details:</label>
+                <textarea id="packageDetails" name="packageDetails" rows="4" required></textarea>
+
+                <button class="button button1" type="submit">Enquire</button>
+            </form>
+	
+	</div>
+	</div>
+	</div>
+	
+	
+
+<footer>
+<div class="footer-content">
+    
+    <div class="footer-social">
+        <h3 style="color:rgb(152, 3, 152);">Follow Us</h3> 
+        <ul>
+            <li><a href="#"><img src="c:\Users\Regent\OneDrive - RTC Education Ltd\Desktop\website\face.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="c:\Users\Regent\OneDrive - RTC Education Ltd\Desktop\website\3670151.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="c:\Users\Regent\OneDrive - RTC Education Ltd\Desktop\website\insta.png" alt="Instagram"></a></li>
+        </ul>
+		<div class="footer-address">
+        <p class="p6"style="color:purple;">Party Time <br>Block 4,<br>Dubai Knowledge Park,<br>Al Sufouh 2,Dubai<br>United Arab Emirates</p>
+    </div>
+    </div>
+	
+</div>
+
+<div class="footer-bottom"> 
+    <p>&copy; Party Time.</p>
+    <p>Designed by Mohammad Hossein Farhangi</p>
+</div>
+</footer>
+</body>
+</html>
